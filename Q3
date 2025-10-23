@@ -1,0 +1,9 @@
+expenses = []
+n = int(input("How many expenses? "))
+
+for i in range(n):
+    amount = float(input("Enter expense amount: "))
+    expenses.append(amount)
+
+total = sum(expenses)
+print("Total expenses =", total)
