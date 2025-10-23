@@ -1,0 +1,5 @@
+friends = ["Asif", "Rafi", "Anika", "Sadia", "Arif", "Mim", "Tuhin"]
+
+for f in friends:
+    if f.lower().startswith("a"):
+        print(f)
