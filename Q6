@@ -1,0 +1,11 @@
+person = {
+    "name": "Rahim",
+    "address": "Dhaka",
+    "age": 25,
+    "country": "Bangladesh"
+}
+
+person["country"] = "Canada"
+
+for key, value in person.items():
+    print(key, ":", value)
