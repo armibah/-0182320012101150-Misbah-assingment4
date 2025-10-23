@@ -1,0 +1,11 @@
+days = []
+days.append("Sunday")
+days.append("Monday")
+days.append("Tuesday")
+days.append("Wednesday")
+days.append("Thursday")
+days.append("Friday")
+days.append("Saturday")
+
+for d in days:
+    print(d)
