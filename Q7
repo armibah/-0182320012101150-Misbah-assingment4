@@ -1,0 +1,10 @@
+contacts = {
+    "amir": "1234",
+    "robin": "5678",
+    "anil": "9999",
+    "sara": "8888"
+}
+
+for key in contacts.keys():
+    if len(key) == 4:
+        print(key)
